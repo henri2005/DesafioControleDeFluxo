@@ -10,7 +10,7 @@ public class Contador {
             int segundoNumero = terminal.nextInt();
 
             if (segundoNumero < primeiroNumero) {
-                throw new ParametrosInvalidosException("O segundo numero não pode ser menor que o primeiro");
+                throw new ParametrosInvalidosException("O segundo numero deve ser maior que o primeiro");
             }
             
             for (int i = primeiroNumero; i <= segundoNumero; i++) {
